@@ -9,14 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@havish/see-baltimores-segregation-with-detail": "https://api.observablehq.com/@havish/see-baltimores-segregation-with-detail.tgz?v=3",
+    "@havish/where-are-houses-in-maryland-bieng-built": "https://api.observablehq.com/@havish/where-are-houses-in-maryland-bieng-built.tgz?v=3",
+    "@havish/which-counties-are-growing-in-maryland": "https://api.observablehq.com/@havish/which-counties-are-growing-in-maryland.tgz?v=3",
+    "@havish/who-would-voter-id-laws-impact-the-most": "https://api.observablehq.com/@havish/who-would-voter-id-laws-impact-the-most.tgz?v=3",
+    "@observablehq/runtime": "5",
+    "autoprefixer": "^10.4.13",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "next": "13.2.3",
+    "postcss": "^8.4.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.2.7",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
     "@types/node": "18.14.6",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "eslint": "8.35.0",
-    "eslint-config-next": "13.2.3",
-    "next": "13.2.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.9.5"
+    "eslint-config-lemon": "^0.6.148",
+    "eslint-config-next": "13.2.3"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
   }
 }
